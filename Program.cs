@@ -9,7 +9,7 @@ namespace Bakery.WebAPI
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().SeedDatabase().RunAsync();
+            CreateHostBuilder(args).Build().SeedDatabase().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
