@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CkVKTM/F1MODtvvlqy0T432ZT466QquKOaGTVK4lXXCN3Klr9laiJTvDMgy90FzQSXXSkEayBZhtZXt/2Nu9tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.WebAPI\\Bakery.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melm_\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\melm_\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\melm_\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\melm_\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\melm_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\melm_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
