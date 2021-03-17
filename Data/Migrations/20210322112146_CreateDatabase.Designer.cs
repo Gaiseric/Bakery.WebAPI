@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bakery.WebAPI.Data.Migrations
 {
     [DbContext(typeof(BakeryContext))]
-    [Migration("20210317213120_CreateDatabase")]
+    [Migration("20210322112146_CreateDatabase")]
     partial class CreateDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,10 @@ namespace Bakery.WebAPI.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomerPhone")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

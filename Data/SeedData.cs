@@ -52,6 +52,7 @@ namespace Bakery.WebAPI.Data
                     {
                         Id = 1,
                         CustomerName = "John Ivanko",
+                        CustomerPhone =  "+380505263338",
                         OrderEmail = "test@ukr.net",
                         OrderShipping = "Some Home, 1",
                         OrderProduct = "Bread",

@@ -25,6 +25,10 @@ namespace Bakery.WebAPI.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("CustomerPhone")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("OrderEmail")
                         .IsRequired()
                         .HasColumnType("TEXT");

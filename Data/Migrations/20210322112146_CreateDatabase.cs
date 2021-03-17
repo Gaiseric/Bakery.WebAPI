@@ -13,6 +13,7 @@ namespace Bakery.WebAPI.Data.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     CustomerName = table.Column<string>(type: "TEXT", nullable: false),
+                    CustomerPhone = table.Column<string>(type: "TEXT", nullable: false),
                     OrderEmail = table.Column<string>(type: "TEXT", nullable: false),
                     OrderShipping = table.Column<string>(type: "TEXT", nullable: false),
                     OrderProduct = table.Column<string>(type: "TEXT", nullable: false),
