@@ -1261,11 +1261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.WebAPI\\Bakery.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.WebAPI\\Bakery.WebAPI.csproj",
       "projectName": "Bakery.WebAPI",
-      "projectPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.WebAPI\\Bakery.WebAPI.csproj",
+      "projectPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.WebAPI\\Bakery.WebAPI.csproj",
       "packagesPath": "C:\\Users\\melm_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
