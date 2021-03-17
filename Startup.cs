@@ -34,7 +34,7 @@ namespace Bakery.WebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Bakery.WebAPI", Version = "v1" });
             });
             services.AddDbContext<BakeryContext>(options =>
-                options.UseSqlite("Data Source=products.db"));
+                options.UseSqlite("Data Source=bakery.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

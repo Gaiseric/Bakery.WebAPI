@@ -45,6 +45,21 @@ namespace Bakery.WebAPI.Data
                 );
                 context.SaveChanges();
             }
+            if (!context.Orders.Any())
+            {
+                context.Orders.AddRange(
+                    new Order
+                    {
+                        Id = 1,
+                        CustomerName = "John Ivanko",
+                        OrderEmail = "test@ukr.net",
+                        OrderShipping = "Some Home, 1",
+                        OrderProduct = "Bread",
+                        OrderQuantity = 2
+                    }
+                );
+                context.SaveChanges();
+            }
         }
     }
 }

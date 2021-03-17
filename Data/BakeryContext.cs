@@ -9,5 +9,7 @@ namespace Bakery.WebAPI.Data
         {}
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
     }
 }

@@ -8,14 +8,44 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bakery.WebAPI.Data.Migrations
 {
     [DbContext(typeof(BakeryContext))]
-    [Migration("20210317193511_ModifyDatabase")]
-    partial class ModifyDatabase
+    [Migration("20210317213120_CreateDatabase")]
+    partial class CreateDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.3");
+
+            modelBuilder.Entity("Bakery.WebAPI.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OrderEmail")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OrderProduct")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("OrderQuantity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("OrderShipping")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
 
             modelBuilder.Entity("Bakery.WebAPI.Models.Product", b =>
                 {
