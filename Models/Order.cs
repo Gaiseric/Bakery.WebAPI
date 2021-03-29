@@ -22,6 +22,10 @@ namespace Bakery.WebAPI.Models
         public string OrderProduct { get; set; } 
 
         [Required]
+        [Range(1,100)]
         public int OrderQuantity { get; set; } = 1;
+
+        [Required]
+        public string OrderStatus {get; set; }
     }
 }
