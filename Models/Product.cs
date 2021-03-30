@@ -12,6 +12,7 @@ namespace Bakery.WebAPI.Models
         [Required]
         public string Description { get; set; }
         
+        [Required]
         [Range(0.01, 9999.99)]
         public decimal Price { get; set; }
 

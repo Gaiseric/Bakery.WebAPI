@@ -12,9 +12,6 @@ namespace Bakery.WebAPI.Models
         [Phone, Required]
         public string CustomerPhone { get; set; }
 
-        [EmailAddress, Required]
-        public string OrderEmail { get; set; }
-
         [Required]
         public string OrderShipping { get; set; }
 
@@ -23,7 +20,11 @@ namespace Bakery.WebAPI.Models
 
         [Required]
         [Range(1,100)]
-        public int OrderQuantity { get; set; } = 1;
+        public int OrderQuantity { get; set; }
+
+        [Required]
+        [Range(0.01, 9999.99)]
+        public decimal OrderPrice { get; set; }
 
         [Required]
         public string OrderStatus {get; set; }
